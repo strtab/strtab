@@ -13,9 +13,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-  <br align="center" href="">
+  <p align="center"  href="">
         <img src="https://github-readme-stats.vercel.app/api?username=strtab&theme=dark&show_icons=true&hide_border=true&count_private=true&bg_color=0d1117"/>
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=strtab&theme=dark&show_icons=true&hide_border=true&bg_color=0d1117"/>
         <p align="center"><img src="https://komarev.com/ghpvc/?username=strtab&label=PROFILE+VIEWS&style=for-the-badge&color=lightgrey" alt="Profile views"/></p>
-  </br>
+  </p>
   
