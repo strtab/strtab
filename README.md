@@ -16,6 +16,5 @@ Here are some ideas to get you started:
   <p align="center"  href="">
         <img src="https://github-readme-stats-rho-dun-82.vercel.app/api?username=strtab&theme=dark&show_icons=true&hide_border=true&count_private=true&bg_color=0d1117"/>
         <img src="https://github-readme-stats-rho-dun-82.vercel.app/api/top-langs/?username=strtab&theme=dark&hide_border=true&bg_color=0d1117&layout=compact"/>
-        <p align="center"><img src="https://komarev.com/ghpvc/?username=strtab&label=PROFILE+VIEWS&style=for-the-badge&color=lightgrey" alt="Profile views"/></p>
+        <p align="center"><img src="https://komarev.com/ghpvc/?username=strtab&label=PROFILE+VIEWS&style=for-the-badge&color=lightgrey" alt="Profile views"/> <img src="https://img.shields.io/badge/SadServers-Intermediate-2962FF?style=for-the-badge" alt="SadServers Level"></p>
   </p>
-  
