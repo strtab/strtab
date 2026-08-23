@@ -19,7 +19,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: disable_animations=true&show_icons=true&theme=dark&hide_border=true&bg_color=100f0f&fg_color=cecdc3
+          options: include_all_commits=true&hide_title=true&disable_animations=true&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&fg_color=cecdc3
           path: .github/assets/stats.svg
           token: ${{ secrets.PAT }}
           fail_on_error: true
@@ -28,7 +28,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: layout=compact&hide_title=true&langs_count=8&hide_border=true&disable_animations=true&theme=dark&bg_color=0d1117&fg_color=f0f6fc
+          options: layout=compact&hide_title=true&langs_count=6&hide_border=true&disable_animations=true&theme=dark&bg_color=0d1117&fg_color=f0f6fc
           path: .github/assets/top-langs.svg
           token: ${{ secrets.PAT }}
           fail_on_error: true
