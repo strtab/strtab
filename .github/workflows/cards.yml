@@ -15,17 +15,19 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&show_icons=true&hide_border=true&count_private=true&bg_color=100f0f&fg_color=cecdc3"
-          path: profile/stats.svg
+          options: disable_animations=true&show_icons=true&theme=dark&show_icons=true&hide_border=true&bg_color=100f0f&fg_color=cecdc3
+          path: .github/assets/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&theme=dark&hide_border=true&bg_color=100f0f&fg_color=cecdc3&layout=compact
-          path: profile/top-langs.svg
+          options: layout=compact&hide_title=true&langs_count=8&hide_border=true&disable_animations=true&theme=dark&bg_color=0d1117&fg_color=f0f6fc
+          path: .github/assets/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       - name: Commit changes
         uses: devops-infra/action-commit-push@v1.5.0
