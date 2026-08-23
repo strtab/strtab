@@ -1,13 +1,17 @@
-name: Update README cards
+name: Generate README stats cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 */3 * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -15,9 +19,9 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: disable_animations=true&show_icons=true&theme=dark&show_icons=true&hide_border=true&bg_color=100f0f&fg_color=cecdc3
+          options: disable_animations=true&show_icons=true&theme=dark&hide_border=true&bg_color=100f0f&fg_color=cecdc3
           path: .github/assets/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT }}
           fail_on_error: true
 
       - name: Generate top languages card
@@ -26,7 +30,7 @@ jobs:
           card: top-langs
           options: layout=compact&hide_title=true&langs_count=8&hide_border=true&disable_animations=true&theme=dark&bg_color=0d1117&fg_color=f0f6fc
           path: .github/assets/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT }}
           fail_on_error: true
 
       - name: Commit changes
