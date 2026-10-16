@@ -124,7 +124,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="117.82"
+          width="117.68"
           height="8"
           fill="#44a51c"
         />
@@ -132,9 +132,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="117.82"
+          x="117.68"
           y="0"
-          width="81.32"
+          width="81.35"
           height="8"
           fill="#f34b7d"
         />
@@ -142,7 +142,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="199.14"
+          x="199.03"
           y="0"
           width="15.48"
           height="8"
@@ -152,9 +152,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="214.61999999999998"
+          x="214.51"
           y="0"
-          width="15.14"
+          width="15.15"
           height="8"
           fill="#f1e05a"
         />
@@ -162,9 +162,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="229.76"
+          x="229.66"
           y="0"
-          width="10.96"
+          width="10.9"
           height="8"
           fill="#7e7eff"
         />
@@ -172,9 +172,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="240.72"
+          x="240.56"
           y="0"
-          width="19.29"
+          width="19.43"
           height="8"
           fill="#3572A5"
         />
@@ -185,14 +185,14 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#44a51c" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        QML 47.13%
+        QML 47.07%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C++ 32.53%
+        C++ 32.54%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
@@ -213,14 +213,14 @@
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#7e7eff" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Nix 4.38%
+        Nix 4.36%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 3.71%
+        Python 3.77%
       </text>
     </g>
   </g></g>
